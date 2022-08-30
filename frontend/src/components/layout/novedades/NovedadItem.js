@@ -1,5 +1,6 @@
 import React from 'react';
-import '/Users/tamaraloyacono/Desktop/mi-pagina-web/frontend/src/styles/components/layout/NovedadesItem.css';
+// import '/Users/tamaraloyacono/Desktop/mi-pagina-web/frontend/src/styles/components/layout/NovedadesItem.css';
+import '../../../styles/components/layout/NovedadesItem.css';
 
 const NovedadItem = (props) => {
     const { title, subtitle, imagen, body } = props; //chequear nombre IMAGEN por las dudas

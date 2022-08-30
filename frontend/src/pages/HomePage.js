@@ -1,7 +1,8 @@
 import React from 'react';
 import Navbar from '../components/layout/Nav';
 import Footer from '../components/layout/Footer';
-import '/Users/tamaraloyacono/Desktop/mi-pagina-web/frontend/src/styles/components/pages/HomePage.css';
+// import '/Users/tamaraloyacono/Desktop/mi-pagina-web/frontend/src/styles/components/pages/HomePage.css';
+import '../../src/styles/components/pages/HomePage.css';
 
 const HomePage = (props) => {
     return (

@@ -6,7 +6,8 @@ import Nav from 'react-bootstrap/Nav';
 import NavItem from 'react-bootstrap/NavItem';
 import NavLink from 'react-bootstrap/NavLink';
 
-import '/Users/tamaraloyacono/Desktop/mi-pagina-web/frontend/src/styles/components/layout/Nav.css';
+// import '/Users/tamaraloyacono/Desktop/mi-pagina-web/frontend/src/styles/components/layout/Nav.css';
+import '../../styles/components/layout/Nav.css';
 
 function Navbar(props){
   
