@@ -1,8 +1,5 @@
 .holderContacto {
     text-align: center;
-    /* align-items: flex-end; */
-    /* background-color: hwb(126 74% 19%);   */
-    /* overflow: hidden;   */
     width: 100vw;
     padding-right:0px;
     margin-right:0px;
@@ -37,10 +34,6 @@ ul {
     background-color: hwb(330 5% 11%);
 }
 
-/* .datosContacto {
-    align-items: center;
-    display: block;
-} */
 
 .leftContact{
     float: left;

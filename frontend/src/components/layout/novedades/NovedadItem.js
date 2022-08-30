@@ -4,14 +4,7 @@ import '/Users/tamaraloyacono/Desktop/mi-pagina-web/frontend/src/styles/componen
 const NovedadItem = (props) => {
     const { title, subtitle, imagen, body } = props; //chequear nombre IMAGEN por las dudas
     return (
-        // <div class="card mb-5 mt-5 p-5">
-        //     <img class="card-img-top" src={imagen} alt="Card image cap"/>
-        //     <div class="card-body">
-        //         <h5 class="card-title">{title}</h5>
-        //         <p class="card-text">{body}</p>
-        //         {/* <a href="#" class="btn btn-primary">View</a> */}
-        //     </div>
-        // </div>
+
 
         <div className="container card p-3 mb-5 mt-1 flex bg-white rounded shadow flex">
             <div className="row">
@@ -26,13 +19,6 @@ const NovedadItem = (props) => {
             </div>
         </div>
 
-        /* {<div className="novedades">
-        <h1>{title}</h1>
-        <h2>{subtitle}</h2>
-        <img src={imagen} />
-        <div dangerouslySetInnerHTML={{ __html: body }} />
-        <hr />
-        </div> }*/
     );
 }
 

@@ -19,6 +19,13 @@
     font-family: 'Poiret One', cursive;
 }
 
+@media (max-width:1380px){
+    .lista{
+        flex-direction: column;
+        height:120%
+    }
+}
+
 .items {
     font-size: 20px;
     text-transform: uppercase;
@@ -31,11 +38,7 @@
 }
 
 .active, .items:hover{
-    /* box-shadow: 0 4px 2px -2px gray; */
-    /* text-shadow: 2px 2px black;
-    color:gray; */
     transform: scale(1.1);
-    /* animation:flicker 1.5s infinite alternate; */
     color: #fff;
     text-shadow:
         0 0 5px #fff,
@@ -74,20 +77,6 @@
       text-shadow: none;
   }    
 }
-
-/* .btn {
-    display: none;
-    position: absolute;
-    right: 10px;
-    top: 7px;
-    padding: 5px;
-    color: #000;
-    font-size: 30px;
-} */
-
-/* .items{
-    text-decoration: none;
-} */
 
 .logoNavBar {
     position: absolute;

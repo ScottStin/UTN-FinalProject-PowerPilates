@@ -6,7 +6,6 @@ var logger = require('morgan');
 var session = require('express-session');
 var fileUpload = require('express-fileupload');
 var cors = require('cors');
-//ella no tiene este ultimo 
 
 
 require('dotenv').config();
@@ -79,11 +78,12 @@ app.get('/', function (req, res){
   console.log("test home 2")
   // var conocido = Boolean(req.session.nombre);
 
-  res.render('index' , {
-    title: 'Sesiones en Express.js',
-    // conocido: conocido,
-    // nombre: req.session.nombre
-  });
+  // res.render('index' , {
+  //   title: 'Sesiones en Express.js',
+  //   // conocido: conocido,
+  //   // nombre: req.session.nombre
+  // });
+  res.redirect('/admin/novedades')
 });
 
 app.post('/ingresar', function
