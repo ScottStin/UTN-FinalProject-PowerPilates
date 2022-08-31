@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var novedadesModel = require('../../bin/models/novedadesModel');
+var novedadesModel = require('../../models/novedadesModel');
 const util = require('util');
 const cloudinary = require('cloudinary').v2;
 const uploader = util.promisify(cloudinary.uploader.upload);

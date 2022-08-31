@@ -51,7 +51,7 @@ secured = async (req, res, next) => {
 
 
 require('dotenv').config();
-var pool = require('./bin/models/bd');
+var pool = require('./models/bd');
 
 
 
