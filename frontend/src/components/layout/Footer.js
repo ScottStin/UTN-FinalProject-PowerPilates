@@ -17,8 +17,8 @@ const Footer = (props) => {
                 <div className="col-5 rightFooter">
                     <ul className="datosLocal">
                         <li>Lunes - Viernes</li>
-                        <li>Espacio Coworking SpaceNatur</li>
-                        <li>Rúa de Nicaragua 8, Vigo, Pontevedra</li>
+                        <li>Rúa de Barcelona, 44, bajo</li>
+                        <li>36203 Vigo, Pontevedra</li>
                     </ul>
                 </div>
           </div>

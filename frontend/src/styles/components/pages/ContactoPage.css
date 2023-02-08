@@ -8,7 +8,13 @@
     font-size: 20px;
     color: white;
     text-align: center;
-    height: 100vh;
+    height: 110vh;
+}
+
+@media (max-width:1380px){
+    .holderContacto{
+        height: 160vh;
+    }
 }
 
 .box {
@@ -52,5 +58,39 @@ ul {
 .contactBottom{
     position:static;
     bottom:0
+}
+
+.map{
+    text-align: center;
+    width: 100vw;
+    padding-right:0px;
+    margin-right:0px;
+    background-size: cover;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    height: 100vh;
+    filter: grayscale(100%) invert(92%) contrast(83%);
+    z-index: -1;
+    opacity: 0.9;
+}
+.contactForm{
+    transition: ease all 1s;
+}
+@media (max-width:1380px){
+    .contactForm{
+        padding-top: 50px;
+    }
+}
+
+@media (max-width:1100px){
+    .contactForm{
+        transform: scaleX(0.8);
+    }
+}
+
+.mainMapPage{
+    background-color: black;
+    z-index: -1;
 }
 

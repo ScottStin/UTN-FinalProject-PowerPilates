@@ -46,7 +46,7 @@ const ContactoPage = (props) => {
             <main className="holderContacto" >
                 <Navbar default="/contacto">
                 </Navbar>
-                <div className="row mb-5">
+                <div className="contactForm row mb-5">
                     <div className="col-4 p-5 mt-5 mb-5 leftContact">
                         <br></br>
                         <p> ¿Qué estás esperando para cambiar tu cuerpo?</p>

@@ -1,0 +1,16 @@
+/* .foto {
+    transition: ease all .5s;
+  } */
+  
+  .foto:hover {
+    transform: scale(1.4);
+    transition: ease all 1s;
+  }
+
+  .fotoHolder{
+    background-image: url("../../../../public/img/colours.jpg");
+    /* background-image: url("../../../../public/img/darkLed.jpg"); */
+    /* background-image: url("../../../../public/img/neonRed.jpg"); */
+    /* background-image: url("../../../../public/img/verdeplanta.jpg"); */
+    /* background-color: white; */
+  }

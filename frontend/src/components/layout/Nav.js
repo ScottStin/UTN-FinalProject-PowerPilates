@@ -20,8 +20,10 @@ function Navbar(props){
   <ul className="lista">
       <NavItem><NavLink activeClass href="/"><a className= "items">Home</a></NavLink></NavItem>
       <NavLink href="/nosotros"><a className= "items"   >Nuestras clases</a></NavLink>
-      <NavLink href="/novedades"><a className= "items"  >Mantente fit</a></NavLink>
+      {/* <NavLink href="/novedades"><a className= "items"  >Mantente fit</a></NavLink> */}
+      <NavLink href="/fotos"><a className= "items"  >Fotos</a></NavLink>
       <NavLink href="/contacto"><a className= "items"  >Contacto</a></NavLink>
+      <NavLink href="/encontra"><a className= "items"  >Encontranos</a></NavLink>
   </ul>
   <div className="logoNavBar">
     <img src="../../img/LOGO PILATES.png" className="logoPilates"></img>

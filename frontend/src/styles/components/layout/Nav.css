@@ -17,12 +17,13 @@
     align-items: center;
     position: relative;
     font-family: 'Poiret One', cursive;
+    transition: ease all 1s;
 }
 
 @media (max-width:1380px){
     .lista{
         flex-direction: column;
-        height:120%
+        height:150%
     }
 }
 
@@ -34,7 +35,29 @@
     font-size: 28px;
     padding: 25px;
     overflow:hidden;
-    text-decoration: none;
+    text-decoration: none;    
+    transition: ease all 1s;
+}
+
+@media (max-width:1560px){
+    .items{
+        padding: 5px;
+    }
+}
+
+.logoNavBar{
+    transition: ease all 1s;
+}
+@media (max-width:805px){
+    .logoNavBar{
+        transform: scale(0.7);
+    }
+}
+
+@media (max-width:700px){
+    .logoNavBar{
+        Transform: translateY(-5.0em) translateX(-5.0em) scale(0.5);
+    }
 }
 
 .active, .items:hover{
