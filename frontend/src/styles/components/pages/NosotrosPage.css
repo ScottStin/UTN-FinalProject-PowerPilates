@@ -15,14 +15,21 @@
 
 @media (max-width:1380px){
     .nosotrosBody{
-        height: 200vh;
+        height: 300vh;
     }
     .historia{
         padding-top: 600px;
     }
 }
 
-
+@media (max-width:480px){
+    .nosotrosBody{
+        height: 200vh;
+    }
+    .historia{
+        padding-top: 1px;
+    }
+}
 .nosotrosBottom {
     position:static;
     bottom:0

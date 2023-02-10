@@ -5,9 +5,9 @@
     margin-right:0px;
     background-image: url("../../../../public/img/exit.jpg");
     background-size: cover;
-    font-size: 20px;
+    /* font-size: 20px; */
     color: white;
-    text-align: center;
+    /* text-align: center; */
     height: 110vh;
 }
 
@@ -87,7 +87,20 @@ ul {
     .contactForm{
         transform: scaleX(0.8);
     }
+    .holderContacto{
+        height: 100%;
+    }
 }
+
+@media (max-width:480px){
+    .contactForm{
+        Transform: translateY(-6.0em) translateX(-6.0em) scale(0.8);        
+    }
+    .leftContact{
+        display:none;
+    }
+}
+
 
 .mainMapPage{
     background-color: black;

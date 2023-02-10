@@ -1,10 +1,33 @@
 import React from 'react'
 import '../../styles/components/layout/Footer.css' 
 ///Users/tamaraloyacono/Desktop/mi-pagina-web/frontend/src/styles/components/layout/Footer.css
+import { useRef, useEffect, useState } from 'react';
 
 const Footer = (props) => {
+
+    // const [scrollTop, setScrollTop] = useState(0);
+    // useEffect(() => {
+    //     const handleScroll = (event) => {
+    //     var scrollTop = document.getElementById('test').scrollTop;
+    //     var scrollHeight = document.getElementById('test').scrollHeight; // added
+    //     var offsetHeight = document.getElementById('test').offsetHeight;
+    //     console.log(scrollTop)
+    //     console.log(scrollHeight)
+    //     console.log(offsetHeight)
+    //       setScrollTop(window.scrollY);
+    //       console.log(window.scrollY)
+    //     //   console.log(window.outerHeight)
+    //     };
+    
+    //     window.addEventListener('scroll', handleScroll);
+    
+    //     return () => {
+    //       window.removeEventListener('scroll', handleScroll);
+    //     };
+    //   }, []);
+
     return (
-        <footer className="pie">
+        <footer className="pie" id='test'>
            <div className="columnas">
                 <div className="col-7 leftFooter">
                     <ul className="datosContacto">

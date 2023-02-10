@@ -5,8 +5,9 @@ import Footer from '../components/layout/Footer';
 import '../../src/styles/components/pages/NosotrosPage.css';
 
 const NosotrosPage = (props) => {
+   
     return (
-        <main className="holderNosotros">
+        <main className="holderNosotros" id="test2">
             <Navbar default="/nosotros">
             </Navbar>
             <div className="nosotrosBody">
@@ -34,7 +35,7 @@ const NosotrosPage = (props) => {
                 </div>
 
             </div>
-            <div className="nosotrosBottom">
+            <div className="nosotrosBottom" >
                 <Footer></Footer>
             </div>
         </main>

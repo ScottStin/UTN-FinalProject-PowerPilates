@@ -32,7 +32,7 @@ router.get('/novedades', async function (req, res, next) {
 
 router.post('/contacto', async (req, res) => {
     const mail = {
-        to: 'tamaraloyacono@gmail.com',
+        to: 'scott.stinson.1991@gmail.com',
         subject: 'Contacto web',
         html: `${req.body.nombre} se contactó en la web y quiere más información a este correo: ${req.body.email} y prefiere clases por la ${req.body.preferencias} <br> Además, hizo el siguiente comentario: ${req.body.mensaje} </br> Su teléfono es: ${req.body.telefono}`
     } // aca podriamos agregar la pref horaria //
